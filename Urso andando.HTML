@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+
+        <style type="text/css">
+        
+        html, body {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            width: 100%;
+            background:url('cenario.png') no-repeat center center fixed;
+                background-size:cover;
+        
+        }
+
+        #urso-img {
+            position: fixed;
+            width: 80px;
+            margin-top:820px;       
+        }
+        </style>
+    </head>
+    <body>
+
+
+        <img src="urso-1.png" alt="" style="display:none;"/>
+        <img src="urso-2.png" alt="" style="display:none;"/>
+        <img src="urso-3.png" alt="" style="display:none;"/>
+
+
+        <img id="urso-img" alt="Urso Animado" src="urso-1.png"/>
+
+        <script type="text/javascript">
+            const larguraDaTela = window.screen.availWidth;
+            var position = 0;
+            var aumentar = true;
+
+            var animacaoFrame = 0;
+
+            const animacaoUrso = [
+                'urso-1.png',
+                'urso-2.png',
+                'urso-3.png',
+            ];
+
+            setInterval(function(){
+
+                if( position > (larguraDaTela + 200) ) {
+                    return false;
+                }
+                
+                document.getElementById("urso-img").src = animacaoUrso[animacaoFrame];
+                
+                
+                document.getElementById("urso-img").style = "left: " + position + "px;";
+                
+                position +=4;
+                
+                animacaoFrame++;
+                if(animacaoFrame > 2) {
+                    animacaoFrame = 0;
+                }
+                
+                
+            }, 200);
+
+
+
+
+        </script>
+    </body>
+</html>
