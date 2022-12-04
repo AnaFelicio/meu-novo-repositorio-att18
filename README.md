@@ -3,26 +3,24 @@ Jogo criado em sala de aula.
 <h1 > Meu primeiro projeto git!! :D  </h1>
 Esse repositório possui o código do meu primeiro projeto no Git. Foi bem legal desenvovê-lo!
 
-![Imagem Git](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
+![Imagem Git](https:https://www.canva.com/design/DAFThxm0itI/view.png)
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 <br>
-![Badge do Mengão](https://img.shields.io/badge/Vamos%20Flamengo-Vamos%20ser%20Campe%C3%A3o-red)
+![Badge do jogo](https://img.https://img.shields.io/badge/-Ana%20Julia%20Felicio%20Ribras--Cria%C3%A7%C3%B5es-orange)
  
  # :hammer: Funcionalidades do projeto
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Funcionalidade 1`: Feita na aula com utilização da linguagem HTML, atividade 16.
+- `Funcionalidade 2`: Alguns métodos do site tiveram influência da linguagem CSS.
+- `Funcionalidade 2a`:Alguns métodos do site tiveram influência da linguagem JavaScript.
+- `Funcionalidade 3`: Imagens PNG.
 
 # :heavy_check_mark: Tecnologias Utilizadas
 
 - `HTML`
-- `CSS`
-- `Javascript`
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/7065152?s=96&v=4" width=115><br><sub>Carlos Severiano</sub>](https://github.com/cseveriano) |
+| [<img src="https://github.com/AnaFelicio" width=115><br><sub>Ana Julia Felicio</sub>](https://https://github.com/AnaFelicio/meu-novo-repositorio-att18/edit/main/README.md)
 | :---: |
